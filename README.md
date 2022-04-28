@@ -2,7 +2,8 @@
 汉化HV的战斗日志
 
 作为一位英文渣渣在多方寻找后，由TG大佬@qp_xe提供了原始的汉化脚本
-我在此基础上复制了[战斗日志汉化脚本](https://sleazyfork.org/zh-CN/scripts/404119-hv-%E7%89%A9%E5%93%81%E8%A3%85%E5%A4%87%E6%B1%89%E5%8C%96/code)中关于装备的汉化文本
+<br>我在此基础上复制了[战斗日志汉化脚本](https://sleazyfork.org/zh-CN/scripts/404119-hv-%E7%89%A9%E5%93%81%E8%A3%85%E5%A4%87%E6%B1%89%E5%8C%96/code)中关于装备的汉化文本
+<br>对照表来自[EXwiki](https://ehwiki.org/wiki/Main_Page)
 
 - 问:为什么颜色这么辣眼睛
   - 答:纯新手,能起到"醒目"和"易于辨识"就算达到我的要求了
