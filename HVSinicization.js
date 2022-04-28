@@ -207,7 +207,8 @@ let words = {
   'health': '生命',
   'magic': '魔力',
   'spirit': '灵力',
-
+  
+  //以下内容来自HV装备物品汉化
     'Health Potion' : '体力药水',
         'Health Draught' : '体力长效药',
         'Health Elixir' : '终极体力药',
