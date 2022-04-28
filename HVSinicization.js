@@ -3,11 +3,11 @@
 // @namespace    Aloxaf_hentai
 // @version      0.1.2
 // @description  汉化 HV 战斗日志
-// @author       You
+// @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
+// @author       qp_xe & 1235789gzy1
 // @include      https://hentaiverse.org/*
 // @grant        GM_addStyle
 // @grant        unsafeWindow
-// @notice        原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
 // ==/UserScript==
 
 // 隐藏原先的战斗 log
