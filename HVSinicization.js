@@ -732,7 +732,7 @@ let words = {
         /////////////////个人补充翻译//////////
         'dropped':'掉落',
         'Soul Fragments':'灵魂碎片',
-        'Channeling':'急速'
+        'Channeling':'急速',
         'A traveling salesmoogle gives':'自动出售获得了'
 }
 
