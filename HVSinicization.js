@@ -209,76 +209,6 @@ let words = {
   'spirit': '灵力',
   
   //以下内容来自HV装备物品汉化
-    'Health Potion' : '体力药水',
-        'Health Draught' : '体力长效药',
-        'Health Elixir' : '终极体力药',
-        'Mana Potion' : '法力药水',
-        'Mana Draught' : '法力长效药',
-        'Mana Elixir' : '终极法力药',
-        'Spirit Potion' : '灵力药水',
-        'Spirit Draught' : '灵力长效药',
-        'Spirit Elixir' : '终极灵力药',
-        'Monster Chow' : '怪物饲料',
-        'Last Elixir' : '终极秘药',
-        'Energy Drink' : '能量饮料',
-        'Caffeinated Candy' : '咖啡因糖果',
-        'Golden Lottery Ticket' : '黄金彩票券',
-        'Soul Stone' : '灵魂石',
-        'Flower Vase' : '花瓶',
-        'Bubble-Gum' : '泡泡糖',
-        'Binding of Slaughter':  '粘合剂 基础物理伤害',
-        'Binding of Balance':  '粘合剂 物理命中率',
-        'Binding of Isaac':  '粘合剂 物理暴击率',
-        'Binding of Destruction':  '粘合剂 基础魔法伤害',
-        'Binding of Focus':  '粘合剂 魔法命中率',
-        'Binding of Friendship':  '粘合剂 魔法暴击率',
-        'Binding of Protection':  '粘合剂 物理减伤',
-        'Binding of Warding':  '粘合剂 魔法减伤',
-        'Binding of the Fleet':  '粘合剂 回避率',
-        'Binding of the Barrier':  '粘合剂 格挡率',
-        'Binding of the Nimble':  '粘合剂 招架率',
-        'Binding of Negation':  '粘合剂 抵抗率',
-        'Binding of the Ox':  '粘合剂 力量',
-        'Binding of the Raccoon':  '粘合剂 灵巧',
-        'Binding of the Cheetah':  '粘合剂 敏捷',
-        'Binding of the Turtle':  '粘合剂 体质',
-        'Binding of the Fox':  '粘合剂 智力',
-        'Binding of the Owl':  '粘合剂 智慧',
-        'Binding of the Elementalist':  '粘合剂 元素魔法熟练度',
-        'Binding of the Heaven-sent':  '粘合剂 神圣魔法熟练度',
-        'Binding of the Demon-fiend':  '粘合剂 黑暗魔法熟练度',
-        'Binding of the Curse-weaver':  '粘合剂 减益魔法熟练度',
-        'Binding of the Earth-walker':  '粘合剂 增益魔法熟练度',
-        'Binding of Surtr':  '粘合剂 火属性咒语伤害',
-        'Binding of Niflheim':  '粘合剂 冰属性咒语伤害',
-        'Binding of Mjolnir':  '粘合剂 雷属性咒语伤害',
-        'Binding of Freyr':  '粘合剂 风属性咒语伤害',
-        'Binding of Heimdall':  '粘合剂 圣属性咒语伤害',
-        'Binding of Fenrir':  '粘合剂 暗属性咒语伤害',
-        'Binding of Dampening':  '粘合剂 敲击减伤',
-        'Binding of Stoneskin':  '粘合剂 斩击减伤',
-        'Binding of Deflection':  '粘合剂 刺击减伤',
-        'Binding of the Fire-eater':  '粘合剂 火属性减伤',
-        'Binding of the Frost-born':  '粘合剂 冰属性减伤',
-        'Binding of the Thunder-child':  '粘合剂 雷属性减伤',
-        'Binding of the Wind-waker':  '粘合剂 风属性减伤',
-        'Binding of the Thrice-blessed':  '粘合剂 圣属性减伤',
-        'Binding of the Spirit-ward':  '粘合剂 暗属性减伤',
-
-        'Infusion of Darkness' : '黑暗魔药',
-        'Infusion of Divinity' : '神圣魔药',
-        'Infusion of Storms' : '风暴魔药',
-        'Infusion of Lightning' : '闪电魔药',
-        'Infusion of Frost' : '冰冷魔药',
-        'Infusion of Flames' : '火焰魔药',
-        'Infusion of Gaia' : '盖亚魔药',
-        'Scroll of Swiftness' : '加速卷轴',
-        'Scroll of the Avatar' : '化身卷轴',
-        'Scroll of Shadows' : '幻影卷轴',
-        'Scroll of Absorption' : '吸收卷轴',
-        'Scroll of Life' : '生命卷轴',
-        'Scroll of Protection' : '保护卷轴',
-        'Scroll of the Gods' : '神之卷轴',
         'Crystal of Vigor' : '力量水晶',
         'Crystal of Finesse' : '灵巧水晶',
         'Crystal of Swiftness' : '敏捷水晶',
@@ -353,191 +283,8 @@ let words = {
         'Unicorn Horn' : '独角兽的角(等级5)',
         'Noodly Appendage' : '面条般的附肢(等级6)',
 
-        'Bronze Coupon' : '铜礼券(等级3)',
-        'Silver Coupon' : '银礼券(等级5)',
-        'Gold Coupon' : '黄金礼券(等级7)',
-        'Platinum Coupon' : '白金礼券(等级8)',
-        'Peerless Voucher' : '无双凭证',
+        'Festival Coupon' : '节日礼券(等级7)', //2020起收获节（中秋）
 
-
-        //节日及特殊奖杯
-        'Mysterious Box' : '神秘宝盒(等级9)', // 在‘训练：技能推广’调整价格后赠予某些玩家。
-        'Solstice Gift' : '冬至赠礼(等级7)', //  2009 冬至
-        'Stocking Stuffers' : '圣诞袜小礼物(等级7)', // 2009年以来每年圣诞节礼物。
-        'Tenbora\'s Box' : '天菠拉的盒子(等级9)', // 年度榜单或者年度活动奖品
-        'Shimmering Present' : '微光闪动的礼品(等级8)', //  2010 圣诞节
-        'Potato Battery' : '马铃薯电池(等级7)', // 《传送门 2》发售日
-        'RealPervert Badge' : '真-变态胸章(等级7)', // 2011 愚人节
-        'Rainbow Egg' : '彩虹蛋(等级8)', //  2011 复活节
-        'Colored Egg' : '彩绘蛋(等级7)', //  2011 复活节
-        'Raptor Jesus' : '猛禽耶稣(等级7)', //  哈罗德·康平的被提预言
-        'Gift Pony' : '礼品小马(等级8)', // 2011 圣诞节
-        'Faux Rainbow Mane Cap' : '人造彩虹鬃毛帽(等级8)', //  2012 复活节
-        'Pegasopolis Emblem' : '天马族徽(等级7)', // 2012 复活节
-        'Fire Keeper Soul' : '防火女的灵魂(等级8)', // 2012 圣诞节
-        'Crystalline Galanthus' : '结晶雪花莲(等级8)', // 2013 复活节
-        'Sense of Self-Satisfaction' : '自我满足感(等级7)', // 2013 复活节
-        'Six-Lock Box' : '六道锁盒子(等级8)', // 2013 圣诞节
-        'Golden One-Bit Coin' : '金色一比特硬币(等级8)', // 2014 复活节
-        'USB ASIC Miner' : '随身型特定应用积体电路挖矿机(等级7)', // 2014 复活节
-        'Reindeer Antlers' : '驯鹿鹿角(等级8)', // 2014 圣诞节
-        'Ancient Porn Stash' : '古老的色情隐藏档案(等级8)', // 2015 复活节
-        'VPS Hosting Coupon' : '虚拟专用服务器代管优惠券(等级7)', // 2015 复活节
-        'Heart Locket' : '心型盒坠(等级8)', // 2015 圣诞节
-        'Holographic Rainbow Projector' : '全像式彩虹投影机(等级8)', // 2016 复活节
-        'Pot of Gold' : '黄金罐(等级7)', // 2016 复活节
-        'Dinosaur Egg' : '恐龙蛋(等级8)', // 2016 圣诞节
-        'Precursor Smoothie Blender' : '旧世界冰沙机(等级8)', // 2017 复活节
-        'Rainbow Smoothie' : '彩虹冰沙(等级7)', // 2017 复活节
-        'Mysterious Tooth' : '神秘的牙齿(等级8)', // 2017 圣诞节
-        'Grammar Nazi Armband' : '语法纳粹臂章(等级7)', // 2018 复活节
-        'Abstract Wire Sculpture' : '抽象线雕(等级8)', // 2018 复活节
-        'Delicate Flower' : '娇嫩的花朵(等级8)', // 2018 圣诞节
-        'Assorted Coins' : '什锦硬币(等级7)', // 2019 复活节
-        'Coin Collector\'s Guide' : '硬币收藏家指南(等级8)', // 2019 复活节
-        'Iron Heart' : '钢铁之心(等级8)', // 2019 圣诞节
-        'Shrine Fortune' : '神社灵签(等级7)', // 2020起复活节
-        'Plague Mask' : '瘟疫面具(等级8)', // 2020 复活节
-        'Festival Coupon' : '节日礼券(等级7)', //2020起收获节（中秋？）
-        'Annoying Gun' : '烦人的枪(等级8)', //2020 圣诞节
-        'Vaccine Certificate' : '疫苗证明(等级8)', //2021 复活节
-        'Barrel' : '酒桶(等级8)', //2021 圣诞节
-        'CoreCare Starter Kit' : '核心服务工具套件(等级8)', //2022 复活节
-
-
-        //旧旧古董
-        'Priceless Ming Vase' : '无价的明朝瓷器',
-        'Grue' : '格鲁',
-        'Seven-Leafed Clover' : '七叶幸运草',
-        'Rabbit\'s Foot' : '幸运兔脚',
-        'Wirt\'s Leg' : '维特之脚',
-        'Wirts Leg' : '维特之脚',
-        'Shark-Mounted Laser' : '装在鲨鱼头上的激光枪',
-        'BFG9000' : 'BFG9000',
-        'Railgun' : '磁道炮',
-        'Flame Thrower' : '火焰喷射器',
-        'Small Nuke' : '小型核武',
-        'Chainsaw Oil' : '电锯油',
-        'Chainsaw Fuel' : '电锯燃油',
-        'Chainsaw Chain' : '电锯链',
-        'Chainsaw Safety Manual' : '电锯安全手册',
-        'Chainsaw Repair Guide' : '电锯维修指南',
-        'Chainsaw Guide Bar' : '电锯导板',
-        'ASHPD Portal Gun' : '光圈科技传送门手持发射器',
-        'Smart Bomb' : '炸弹机器人',
-        'Tesla Coil' : '电光塔',
-        'Vorpal Blade Hilt' : '斩龙剑的剑柄',
-        'Crystal Jiggy' : '水晶拼图',
-
-        //圣诞文物
-        'Fiber-Optic Xmas Tree' : '光纤圣诞树',
-        'Decorative Pony Sled' : '小马雪橇装饰品',
-        'Hearth Warming Lantern' : '暖心节灯笼',
-        'Mayan Desk Calendar' : '马雅桌历',
-        'Fiber-Optic Tree of Harmony' : '光纤谐律之树',
-        'Crystal Snowman' : '水晶雪人',
-        'Annoying Dog' : '烦人的狗',
-        'Iridium Sprinkler' : '铱制洒水器',
-        'Robo Rabbit Head' : '机器兔子头',
-
-        //复活节文物
-        //2011
-        'Easter Egg' : '复活节彩蛋',
-        //S、N、O、W、F、L、A、K、E。
-        //2012
-        'Red Ponyfeather' : '红色天马羽毛',
-        'Orange Ponyfeather' : '橙色天马羽毛',
-        'Yellow Ponyfeather' : '黄色天马羽毛',
-        'Green Ponyfeather' : '绿色天马羽毛',
-        'Blue Ponyfeather' : '蓝色天马羽毛',
-        'Indigo Ponyfeather' : '靛色天马羽毛',
-        'Violet Ponyfeather' : '紫色天马羽毛',
-        //2013
-        'Twinkling Snowflake' : '闪闪发光(Twinkling)的雪花',
-        'Glittering Snowflake' : '闪闪发光(Glittering)的雪花',
-        'Shimmering Snowflake' : '闪闪发光(Shimmering)的雪花',
-        'Gleaming Snowflake' : '闪闪发光(Gleaming)的雪花',
-        'Sparkling Snowflake' : '闪闪发光(Sparkling)的雪花',
-        'Glinting Snowflake' : '闪闪发光(Glinting)的雪花',
-        'Scintillating Snowflake' : '闪闪发光(Scintillating)的雪花',
-        //2014
-        'Altcoin' : '山寨币',
-        'LiteCoin' : '莱特币',
-        'DogeCoin' : '多吉币',
-        'PeerCoin' : '点点币',
-        'FlappyCoin' : '象素鸟币',
-        'VertCoin' : '绿币',
-        'AuroraCoin' : '极光币',
-        'DarkCoin' : '暗黑币',
-        //2015
-        'Ancient Server Part' : '古老的服务器零组件',
-        'Server Motherboard' : '服务器主板',
-        'Server CPU Module' : '服务器中央处理器模组',
-        'Server RAM Module' : '服务器主内存模组',
-        'Server Chassis' : '服务器机壳',
-        'Server Network Card' : '服务器网络卡',
-        'Server Hard Drive' : '服务器硬盘',
-        'Server Power Supply' : '服务器电源供应器',
-        //2016
-        'Chicken Figurines' : '小鸡公仔',
-        'Red Chicken Figurine' : '红色小鸡公仔',
-        'Orange Chicken Figurine' : '橙色小鸡公仔',
-        'Yellow Chicken Figurine' : '黄色小鸡公仔',
-        'Green Chicken Figurine' : '绿色小鸡公仔',
-        'Blue Chicken Figurine' : '蓝色小鸡公仔',
-        'Indigo Chicken Figurine' : '靛色小鸡公仔',
-        'Violet Chicken Figurine' : '紫色小鸡公仔',
-        //2017
-        'Ancient Fruit Smoothies' : '古老的水果冰沙',
-        'Ancient Lemon' : '古代柠檬',
-        'Ancient Plum' : '古代李子',
-        'Ancient Kiwi' : '古代奇异果',
-        'Ancient Mulberry' : '古代桑葚',
-        'Ancient Blueberry' : '古代蓝莓',
-        'Ancient Strawberry' : '古代草莓',
-        'Ancient Orange' : '古代橙子',
-        //2018
-        'Aggravating Spelling Error' : '严重的拼写错误',
-        'Exasperating Spelling Error' : '恼人的拼写错误',
-        'Galling Spelling Error' : '恼怒的拼写错误',
-        'Infuriating Spelling Error' : '激怒的拼写错误',
-        'Irking Spelling Error' : '忿怒的拼写错误',
-        'Vexing Spelling Error' : '烦恼的拼写错误',
-        'Riling Spelling Error' : '愤怒的拼写错误',
-        //2019
-        'Manga Category Button' : '漫画类别按钮',
-        'Doujinshi Category Button' : '同人志类别按钮',
-        'Artist CG Category Button' : '画师CG类别按钮',
-        'Western Category Button' : '西方类别按钮',
-        'Image Set Category Button' : '图集类别按钮',
-        'Game CG Category Button' : '游戏CG类别按钮',
-        'Non-H Category Button' : '非H类别按钮',
-        'Cosplay Category Button' : 'Cosplay类别按钮',
-        'Asian Porn Category Button' : '亚洲色情类别按钮',
-        'Misc Category Button' : '杂项类别按钮',
-        //2020
-        'Hoarded Hand Sanitizer' : '库存的洗手液',
-        'Hoarded Disinfecting Wipes' : '库存的消毒湿巾',
-        'Hoarded Face Masks' : '库存的口罩',
-        'Hoarded Toilet Paper' : '库存的厕纸',
-        'Hoarded Dried Pasta' : '库存的干面',
-        'Hoarded Canned Goods' : '库存的罐头',
-        'Hoarded Powdered Milk' : '库存的奶粉',
-        //2021
-        'Red Vaccine Vial' : '红色疫苗瓶',
-        'Orange Vaccine Vial' : '橙色疫苗瓶',
-        'Yellow Vaccine Vial' : '黄色疫苗瓶',
-        'Green Vaccine Vial' : '绿色疫苗瓶',
-        'Blue Vaccine Vial' : '蓝色疫苗瓶',
-        'Indigo Vaccine Vial' : '靛色疫苗瓶',
-        'Violet Vaccine Vial' : '紫色疫苗瓶',
-        //2022
-        'Core Carrying Bag' : '核心携带包',
-        'Core Display Stand' : '核心展示架',
-        'Core Ornament Set' : '核心饰品套装',
-        'Core Maintenance Set' : '核心维护套装',
-        'Core Wall-Mount Display' : '核心壁挂显示器',
-        'Core LED Illumination' : '核心LED照明',
 ///////////////////////////////////////////武器种类
         // 单手武器类
         'Dagger':'*匕首（单）',
@@ -718,17 +465,6 @@ let words = {
         'Legendary':'<span style=\"background:#ffbbff\" >✪传奇✪</span>',
         'Peerless':'<span style=\"background:#ffd760\" >☯无双☯</span>',
 
-        /////////////////装备部位，更换装备列表用的//////////
-        'Empty':'空',
-        'Main Hand':'主手',
-        'Off Hand':'副手',
-        'Helmet':'头盔',
-        'Body':'身体',
-        'Hands':'手部',
-        'Legs(\\W)':'腿部$1',
-        'Feet(\\W)':'脚部$1',
-
-        'Current Owner':'持有者',
         /////////////////个人补充翻译//////////
         'dropped':'掉落',
         'Soul Fragments':'灵魂碎片',
@@ -789,6 +525,7 @@ function handle_log(mutations, _observer) {
 }
 
 function start_observe() {
+  if (document.getElementById('translog')) return;
   // 在原日志的后面增加一个新的元素存放翻译后的日志，避免对其他插件造成可能存在的干扰
   let table = document.createElement('table');
   let tbody = document.createElement('tbody');
@@ -813,9 +550,6 @@ function start_observe() {
 
 if (document.querySelector('#battle_main') !== null) {
   // 新回合开始时会刷新 battle_main，导致原本的监听失效，必须在刷新时重新监听一次
-  observe_node(document.querySelector('#battle_main'), { childList: true }, () => {
-    start_observe();
-  });
   observe_node(document.querySelector('body'), { childList: true }, () => {
     start_observe();
   });
