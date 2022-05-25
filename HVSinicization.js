@@ -525,6 +525,7 @@ function handle_log(mutations, _observer) {
 }
 
 function start_observe() {
+  if (document.getElementById('translog')) return;
   // 在原日志的后面增加一个新的元素存放翻译后的日志，避免对其他插件造成可能存在的干扰
   let table = document.createElement('table');
   let tbody = document.createElement('tbody');
@@ -549,9 +550,6 @@ function start_observe() {
 
 if (document.querySelector('#battle_main') !== null) {
   // 新回合开始时会刷新 battle_main，导致原本的监听失效，必须在刷新时重新监听一次
-  observe_node(document.querySelector('#battle_main'), { childList: true }, () => {
-    start_observe();
-  });
   observe_node(document.querySelector('body'), { childList: true }, () => {
     start_observe();
   });
