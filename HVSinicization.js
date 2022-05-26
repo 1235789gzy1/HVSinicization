@@ -550,6 +550,9 @@ function start_observe() {
 
 if (document.querySelector('#battle_main') !== null) {
   // 新回合开始时会刷新 battle_main，导致原本的监听失效，必须在刷新时重新监听一次
+  observe_node(document.querySelector('#battle_main'), { childList: true }, () => {
+    start_observe();
+  });
   observe_node(document.querySelector('body'), { childList: true }, () => {
     start_observe();
   });
