@@ -190,6 +190,7 @@ let words = {
 
   'Spawned Monster': '生成怪物',
   'has been defeated': '已被打败',
+  'have escaped from the battle': '从战斗中脱离了',
   
   'A traveling salesmoogle gives':'自动出售给予了',
   'dropped':'掉落',
