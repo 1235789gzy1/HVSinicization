@@ -38,7 +38,8 @@ let words = {
   'Cloak of the Fallen' : '陨落的披风',
   'Heartseeker' : '穿心',
   'Arcane Focus' : '奥术集成',
-  'Channeling':'引导',
+  'Channeling' : '引导',
+  'Fleeing' : '逃跑',
 
   //战斗风格
   'Overwhelming Strikes': '压倒性的攻击',
