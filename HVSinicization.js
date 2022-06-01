@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HV - 战斗日志汉化
 // @namespace    Aloxaf_hentai
-// @version      0.1.5
+// @version      0.1.6
 // @description  汉化 HV 战斗日志
 // @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
 // @author       qp_xe & 1235789gzy1
@@ -18,7 +18,7 @@ let words = {
     //示例
     //'原始文本1': '<span style=\"background:#字体背景色\" >自定义文本1</span>',
     //'原始文本2': '<span style=\"color:字体颜色\" >自定义文本2</span>',
-    //颜色请使用html颜色代码
+    //颜色请使用html颜色代码,注意添加逗号
 
   // 恢复
   'Refreshment' : '提神',
@@ -38,6 +38,7 @@ let words = {
   'Cloak of the Fallen' : '陨落的披风',
   'Heartseeker' : '穿心',
   'Arcane Focus' : '奥术集成',
+  'Channeling':'引导',
 
   //战斗风格
   'Overwhelming Strikes': '压倒性的攻击',
@@ -78,6 +79,7 @@ let words = {
   'Scroll of Life' : '生命卷轴',
   'Scroll of Protection' : '保护卷轴',
   'Scroll of the Gods' : '神之卷轴',
+  'Soul Fragments':'灵魂碎片',
 
   //攻击咒语效果
   'Searing Skin' : '烧灼的皮肤',
@@ -188,6 +190,9 @@ let words = {
 
   'Spawned Monster': '生成怪物',
   'has been defeated': '已被打败',
+  
+  'A traveling salesmoogle gives':'自动出售给予了'
+  'dropped':'掉落',
 
   'for (\\d+)': '<span style=\"background:#FFFF00\" >造成 $1</span>',
   '[yY]our': '<span style=\"color:#1E90FF\" >你的</span>',
@@ -224,6 +229,7 @@ let words = {
         'Crystal of Quintessence' : '灵魂水晶',
 
         'Monster Edibles' : '怪物食品',
+        'Monster Chow' : '怪物口粮',
         'Monster Cuisine' : '怪物料理',
         'Happy Pills' : '快乐药丸',
 
@@ -454,22 +460,19 @@ let words = {
         'Quintessential' : '第五元素',
 
         /////////////////品质//////////
-        'Flimsy ' : '薄弱 ',
-        'Crude ':'<span style=\"background:#acacac\" >劣质</span> ',
-        'Fair ':'<span style=\"background:#c1c1c1\" >一般</span> ',
-        'Average ':'<span style=\"background:#dfdfdf\" >中等</span> ',
-        'Superior ':'<span style=\"background:#fbf9f9\" >上等</span> ',
-        'Fine ':'<span style=\"background:#b9ffb9\" >优质</span> ',
+        'Flimsy' : '薄弱 ',
+        'Crude':'<span style=\"background:#acacac\" >劣质</span> ',
+        'Fair':'<span style=\"background:#c1c1c1\" >一般</span> ',
+        'Average':'<span style=\"background:#dfdfdf\" >中等</span> ',
+        'Superior':'<span style=\"background:#fbf9f9\" >上等</span> ',
+        'Fine':'<span style=\"background:#b9ffb9\" >优质</span> ',
         'Exquisite':'<span style=\"background:#d7e698\" >✧精良✧</span>',
         'Magnificent':'<span style=\"background:#a6daf6\" >☆史诗☆</span>',
         'Legendary':'<span style=\"background:#ffbbff\" >✪传奇✪</span>',
         'Peerless':'<span style=\"background:#ffd760\" >☯无双☯</span>',
 
         /////////////////个人补充翻译//////////
-        'dropped':'掉落',
-        'Soul Fragments':'灵魂碎片',
-        'Channeling':'急速',
-        'A traveling salesmoogle gives':'自动出售获得了'
+
 }
 
 let regexs = [], chinese = [];
