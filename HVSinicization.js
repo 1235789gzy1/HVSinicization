@@ -191,7 +191,7 @@ let words = {
   'Spawned Monster': '生成怪物',
   'has been defeated': '已被打败',
   
-  'A traveling salesmoogle gives':'自动出售给予了'
+  'A traveling salesmoogle gives':'自动出售给予了',
   'dropped':'掉落',
 
   'for (\\d+)': '<span style=\"background:#FFFF00\" >造成 $1</span>',
