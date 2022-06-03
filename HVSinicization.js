@@ -163,7 +163,8 @@ let words = {
   'uses': '<span style=\"background:#ADFF2F\" >使用了</span>',
   'hits': '<span style=\"color:#FF00FF\" >击中</span>',
   'crits': '<span style=\"color:#DC143C\" >暴击</span>',
-  'restores': '<span style=\"color:#006400\" >恢复了</span>',
+  'restores' : '<span style=\"color:#006400\" >恢复</span>',
+  'Recovered' : '<span style=\"color:#006400\" >恢复了</span>',
   'You use': '<span style=\"background:#ADFF2F\" >你使用了</span>',
   'gains? the effect': '<span style=\"background:#ADFF2F" >获得了状态</span>',
   'You crit': '<span style=\"color:#1E90FF\" >你</span><span style=\"color:#DC143C\" >暴击</span>',
@@ -190,6 +191,7 @@ let words = {
   'Spirit Stance Exhausted': '灵动架势关闭',
 
   'Spawned Monster': '生成怪物',
+  'Initializing random encounter' : '正在初始化随机遭遇',
   'has been defeated': '已被打败',
   'With the light of a new dawn, [yY]our experience in all things increases' : '随着新黎明的到来，你在所有事情上的经验都会增加',
   'have escaped from the battle': '从战斗中脱离了',
