@@ -182,7 +182,7 @@ let words = {
   'You obtained': '你获得了',
   'The effect (.*) on (.*) has expired': '<span style=\"color:	#9370DB\" >$2 身上的状态 $1 已失效</span>',
   'The effect (.*) has expired': '<span style=\"background:#7B68EE\" >状态 $1 已失效</span>',
-  'Cooldown expired for (.*)': '$1 已冷却',
+  'Cooldown expired for (.*)': '<span style=\"color:#FF8C00\" >$1</span> <span style=\"background:#00FF00\" >已冷却</span>',
 
   'counter (.*) for (.*)': '<span style=\"background:#FFFF00\" >反击</span> $1 <span style=\"background:#FFFF00\" >造成 $2</span>',
   'healing (.*) for (.*) points of health': '治疗 $1 $2 点生命',
