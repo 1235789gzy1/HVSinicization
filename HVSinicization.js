@@ -214,6 +214,7 @@ let words = {
   'supportive magic proficiency' : '增益魔法的熟练度',
 
   'A traveling salesmoogle gives':'自动出售给予了',
+  'have reached Level' : '<span style=\"background:#00FF00\" >升级至</span>',
   'dropped':'掉落',
 
   'for (\\d+)': '<span style=\"background:#FFFF00\" >造成 $1</span>',
