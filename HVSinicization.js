@@ -191,8 +191,24 @@ let words = {
 
   'Spawned Monster': '生成怪物',
   'has been defeated': '已被打败',
+  'With the light of a new dawn, [yY]our experience in all things increases' : '随着新黎明的到来，你在所有事情上的经验都会增加'，
   'have escaped from the battle': '从战斗中脱离了',
+  'have been defeated' : '嗝屁了',
   
+  //结算时各项经验的翻译文本
+  'one-handed proficiency' : '单手的熟练度',
+  'two-hannded proficiency' : '双手的熟练度',
+  'dual wielding proficiency' : '双持的熟练度',
+  'staff proficiency' : '法杖的熟练度',
+  'cloth armor proficiency' : '布甲的熟练度',
+  'light armor proficiency' : '轻甲的熟练度',
+  'heavy armor proficiency' : '重甲的熟练度',
+  'elemental magic proficiency' : '元素魔法的熟练度',
+  'divine magic proficiency' : '神圣魔法的熟练度',
+  'forbidden magic proficiency' : '黑暗魔法的熟练度',
+  'deprecating magic proficiency' : '减益魔法的熟练度',
+  'supportive magic proficiency' : '增益魔法的熟练度',
+
   'A traveling salesmoogle gives':'自动出售给予了',
   'dropped':'掉落',
 
