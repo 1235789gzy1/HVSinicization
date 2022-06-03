@@ -198,6 +198,8 @@ let words = {
   'have been defeated' : '嗝屁了',
   
   //结算时各项经验的翻译文本
+  'one-handed weapon proficiency' : '单手武器的熟练度',
+  'two-hannded weapon proficiency' : '双手武器的熟练度',
   'one-handed proficiency' : '单手的熟练度',
   'two-hannded proficiency' : '双手的熟练度',
   'dual wielding proficiency' : '双持的熟练度',
