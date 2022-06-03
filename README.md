@@ -10,4 +10,5 @@
 - 问:为什么这些文本看起来这么奇怪
   - 答:照葫芦画瓢的代码,能翻译就行
 ## 使用方法
- - 前往[GreasyFork](https://greasyfork.org/zh-CN/scripts/445520-hv-%E6%88%98%E6%96%97%E6%97%A5%E5%BF%97%E6%B1%89%E5%8C%96)安装
+ - 复制 `HVSinicization.js` 的源码直接粘贴至油猴内 (更新较快)
+ - 前往[GreasyFork](https://greasyfork.org/zh-CN/scripts/445520-hv-%E6%88%98%E6%96%97%E6%97%A5%E5%BF%97%E6%B1%89%E5%8C%96)安装 (更新较慢)
