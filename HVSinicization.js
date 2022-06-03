@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HV - 战斗日志汉化
 // @namespace    Aloxaf_hentai
-// @version      0.1.6
+// @version      0.1.7
 // @description  汉化 HV 战斗日志
 // @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
 // @author       qp_xe & 1235789gzy1
@@ -38,7 +38,8 @@ let words = {
   'Cloak of the Fallen' : '陨落的披风',
   'Heartseeker' : '穿心',
   'Arcane Focus' : '奥术集成',
-  'Channeling':'引导',
+  'Channeling' : '引导',
+  'Fleeing' : '逃跑',
 
   //战斗风格
   'Overwhelming Strikes': '压倒性的攻击',
@@ -162,7 +163,8 @@ let words = {
   'uses': '<span style=\"background:#ADFF2F\" >使用了</span>',
   'hits': '<span style=\"color:#FF00FF\" >击中</span>',
   'crits': '<span style=\"color:#DC143C\" >暴击</span>',
-  'restores': '<span style=\"color:#006400\" >恢复了</span>',
+  'restores' : '<span style=\"color:#006400\" >恢复</span>',
+  'Recovered' : '<span style=\"color:#006400\" >恢复了</span>',
   'You use': '<span style=\"background:#ADFF2F\" >你使用了</span>',
   'gains? the effect': '<span style=\"background:#ADFF2F" >获得了状态</span>',
   'You crit': '<span style=\"color:#1E90FF\" >你</span><span style=\"color:#DC143C\" >暴击</span>',
@@ -180,7 +182,7 @@ let words = {
   'You obtained': '你获得了',
   'The effect (.*) on (.*) has expired': '<span style=\"color:	#9370DB\" >$2 身上的状态 $1 已失效</span>',
   'The effect (.*) has expired': '<span style=\"background:#7B68EE\" >状态 $1 已失效</span>',
-  'Cooldown expired for (.*)': '$1 已冷却',
+  'Cooldown expired for (.*)': '<span style=\"color:#FF8C00\" >$1</span> <span style=\"background:#00FF00\" >已冷却</span>',
 
   'counter (.*) for (.*)': '<span style=\"background:#FFFF00\" >反击</span> $1 <span style=\"background:#FFFF00\" >造成 $2</span>',
   'healing (.*) for (.*) points of health': '治疗 $1 $2 点生命',
@@ -189,8 +191,28 @@ let words = {
   'Spirit Stance Exhausted': '灵动架势关闭',
 
   'Spawned Monster': '生成怪物',
+  'Initializing random encounter' : '正在初始化随机遭遇',
   'has been defeated': '已被打败',
+  'With the light of a new dawn, [yY]our experience in all things increases' : '随着新黎明的到来，你在所有事情上的经验都会增加',
+  'have escaped from the battle': '从战斗中脱离了',
+  'have been defeated' : '嗝屁了',
   
+  //结算时各项经验的翻译文本
+  'one-handed weapon proficiency' : '单手武器的熟练度',
+  'two-hannded weapon proficiency' : '双手武器的熟练度',
+  'one-handed proficiency' : '单手的熟练度',
+  'two-hannded proficiency' : '双手的熟练度',
+  'dual wielding proficiency' : '双持的熟练度',
+  'staff proficiency' : '法杖的熟练度',
+  'cloth armor proficiency' : '布甲的熟练度',
+  'light armor proficiency' : '轻甲的熟练度',
+  'heavy armor proficiency' : '重甲的熟练度',
+  'elemental magic proficiency' : '元素魔法的熟练度',
+  'divine magic proficiency' : '神圣魔法的熟练度',
+  'forbidden magic proficiency' : '黑暗魔法的熟练度',
+  'deprecating magic proficiency' : '减益魔法的熟练度',
+  'supportive magic proficiency' : '增益魔法的熟练度',
+
   'A traveling salesmoogle gives':'自动出售给予了',
   'dropped':'掉落',
 
