@@ -191,7 +191,7 @@ let words = {
 
   'Spawned Monster': '生成怪物',
   'has been defeated': '已被打败',
-  'With the light of a new dawn, [yY]our experience in all things increases' : '随着新黎明的到来，你在所有事情上的经验都会增加'，
+  'With the light of a new dawn, [yY]our experience in all things increases' : '随着新黎明的到来，你在所有事情上的经验都会增加',
   'have escaped from the battle': '从战斗中脱离了',
   'have been defeated' : '嗝屁了',
   
