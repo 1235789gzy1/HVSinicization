@@ -40,6 +40,11 @@ let words = {
   'Arcane Focus' : '奥术集成',
   'Channeling' : '引导',
   'Fleeing' : '逃跑',
+  
+  // 怪物 BUFF 效果
+  'Vital Theft' : '生命吸窃',
+  'Ether Theft' : '以太吸窃',
+  'Spirit Theft' : '灵力吸窃',
 
   //战斗风格
   'Overwhelming Strikes': '压倒性的攻击',
