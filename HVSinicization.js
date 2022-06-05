@@ -40,6 +40,7 @@ let words = {
   'Arcane Focus' : '奥术集成',
   'Channeling' : '引导',
   'Fleeing' : '逃跑',
+  'Blessing of the RiddleMaster' : '御谜士的祝福',
   
   // 怪物 BUFF 效果
   'Vital Theft' : '生命吸窃',
@@ -188,7 +189,6 @@ let words = {
   'The effect (.*) on (.*) has expired': '<span style=\"color:	#9370DB\" >$2 身上的状态 $1 已失效</span>',
   'The effect (.*) has expired': '<span style=\"background:#7B68EE\" >状态 $1 已失效</span>',
   'Cooldown expired for (.*)': '<span style=\"color:#FF8C00\" >$1</span> <span style=\"background:#00FF00\" >已冷却</span>',
-
   'counter (.*) for (.*)': '<span style=\"background:#FFFF00\" >反击</span> $1 <span style=\"background:#FFFF00\" >造成 $2</span>',
   'healing (.*) for (.*) points of health': '治疗 $1 $2 点生命',
   'but is absorbed': '但被吸收了',
@@ -200,6 +200,7 @@ let words = {
   'has been defeated': '已被打败',
   'With the light of a new dawn, [yY]our experience in all things increases' : '随着新黎明的到来，你在所有事情上的经验都会增加',
   'have escaped from the battle': '从战斗中脱离了',
+  'The Riddlemaster listens to your answer, tries to keep a pensive face, then breaks into a wide grin' : '谜语大师听了你的回答，努力保持沉思的表情，然后咧嘴大笑',
   'have been defeated' : '嗝屁了',
   
   //结算时各项经验的翻译文本
