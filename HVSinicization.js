@@ -46,6 +46,8 @@ let words = {
   'Vital Theft' : '生命吸窃',
   'Ether Theft' : '以太吸窃',
   'Spirit Theft' : '灵力吸窃',
+  'Confused' : '混乱',
+  'drain' : '枯竭',
 
   //战斗风格
   'Overwhelming Strikes': '压倒性的攻击',
@@ -165,7 +167,6 @@ let words = {
 
   // 动作
   'casts?': '<span style=\"background:#7CFC00\" >咏唱</span>',
-  'parries your attack': '<span style=\"background:	#00FFFF\" >招架了你的攻击</span>',
   'uses': '<span style=\"background:#ADFF2F\" >使用了</span>',
   'hits': '<span style=\"color:#FF00FF\" >击中</span>',
   'crits': '<span style=\"color:#DC143C\" >暴击</span>',
@@ -183,20 +184,21 @@ let words = {
   'You block the attack': '<span style=\"color:#696969\" >你格挡了这次攻击</span>',
   'You parry the attack': '<span style=\"color:#696969\" >你招架了这次攻击</span>',
   'Your (.*) absorbs (.*) from the attack into': '你的 $1 吸收了 $2 并转化为 ',
-  'You are Victorious!': '你胜利了',
-  'You gain': '你获得了',
-  'You obtained': '你获得了',
-  'The effect (.*) on (.*) has expired': '<span style=\"color:	#9370DB\" >$2 身上的状态 $1 已失效</span>',
   'The effect (.*) has expired': '<span style=\"background:#7B68EE\" >状态 $1 已失效</span>',
   'Cooldown expired for (.*)': '<span style=\"color:#FF8C00\" >$1</span> <span style=\"background:#00FF00\" >已冷却</span>',
   'counter (.*) for (.*)': '<span style=\"background:#FFFF00\" >反击</span> $1 <span style=\"background:#FFFF00\" >造成 $2</span>',
   'healing (.*) for (.*) points of health': '治疗 $1 $2 点生命',
   'You drain (.*) points of health from (.*)' : '你从 $2 身上吸取 $1 点生命值',
   'but is absorbed': '但被吸收了',
-  'Spirit Stance Engaged': '灵动架势开启',
-  'Spirit Stance Exhausted': '灵动架势关闭',
-  'drain' : '枯竭',
 
+  
+  // 怪物动作
+  'parries your attack': '<span style=\"background:	#00FFFF\" >招架了你的攻击</span>',
+  'The effect (.*) on (.*) has expired': '<span style=\"color:	#9370DB\" >$2 身上的状态 $1 已失效</span>',
+  'resists your spell' : '<span style=\"background:#696969\" >抵抗了你的魔法</span>',
+  'got knocked out of confuse' : '从混乱中脱离',
+  
+  //战斗系统文本
   'Spawned Monster': '生成怪物',
   'Initializing random encounter' : '正在初始化随机遭遇',
   'has been defeated': '已被打败',
@@ -204,6 +206,11 @@ let words = {
   'have escaped from the battle': '从战斗中脱离了',
   'The Riddlemaster listens to your answer, tries to keep a pensive face, then breaks into a wide grin' : '谜语大师听了你的回答，努力保持沉思的表情，然后咧嘴大笑',
   'have been defeated' : '嗝屁了',
+  'Spirit Stance Engaged': '灵动架势开启',
+  'Spirit Stance Exhausted': '灵动架势关闭',
+  'You are Victorious!': '你胜利了',
+  'You gain': '你获得了',
+  'You obtained': '你获得了',
   
   //结算时各项经验的翻译文本
   'one-handed weapon proficiency' : '单手武器的熟练度',
