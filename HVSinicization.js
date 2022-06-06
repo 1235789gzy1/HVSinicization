@@ -101,7 +101,7 @@ let words = {
   'Scan' : '扫描',
 
   'FUS RO DAH' : '龙吼',
-  'Orbital Friendship Cannon' : '友谊小马炮',
+  'Orbital Friendship Cannon' : '<font color="#FF0000">友</font><font color="#CC0033">谊</font><font color="#990066">小</font><font color="#660099">马</font><font color="#3300CC">炮</font>',
   'Concussive Strike' : '震荡打击',
   'Skyward Sword' : '天空之剑',
   'Frenzied Blows' : '狂乱百裂斩',
