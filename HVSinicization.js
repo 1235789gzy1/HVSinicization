@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HV - 战斗日志汉化
 // @namespace    Aloxaf_hentai
-// @version      0.1.7
+// @version      0.1.8
 // @description  汉化 HV 战斗日志
 // @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
 // @author       qp_xe & 1235789gzy1
@@ -204,7 +204,9 @@ let words = {
   'has been defeated': '已被打败',
   'With the light of a new dawn, [yY]our experience in all things increases' : '随着新黎明的到来，你在所有事情上的经验都会增加',
   'have escaped from the battle': '从战斗中脱离了',
+  'Time Bonus' : '计时奖励',
   'The Riddlemaster listens to your answer, tries to keep a pensive face, then breaks into a wide grin' : '谜语大师听了你的回答，努力保持沉思的表情，然后咧嘴大笑',
+  'The Riddlemaster listens to your answer and winks at you' : '谜语大师听你的回答，向你眨眼',
   'have been defeated' : '嗝屁了',
   'Spirit Stance Engaged': '灵动架势开启',
   'Spirit Stance Exhausted': '灵动架势关闭',
@@ -265,6 +267,7 @@ let words = {
         'Crystal of Devotion' : '神圣水晶',
         'Crystal of Corruption' : '暗黑水晶',
         'Crystal of Quintessence' : '灵魂水晶',
+        'Crystal of Corruption' : '腐化水晶',
 
         'Monster Edibles' : '怪物食品',
         'Monster Chow' : '怪物口粮',
