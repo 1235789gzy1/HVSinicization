@@ -191,9 +191,11 @@ let words = {
   'Cooldown expired for (.*)': '<span style=\"color:#FF8C00\" >$1</span> <span style=\"background:#00FF00\" >已冷却</span>',
   'counter (.*) for (.*)': '<span style=\"background:#FFFF00\" >反击</span> $1 <span style=\"background:#FFFF00\" >造成 $2</span>',
   'healing (.*) for (.*) points of health': '治疗 $1 $2 点生命',
+  'You drain (.*) points of health from (.*)' : '你从 $2 身上吸取 $1 点生命值',
   'but is absorbed': '但被吸收了',
   'Spirit Stance Engaged': '灵动架势开启',
   'Spirit Stance Exhausted': '灵动架势关闭',
+  'drain' : '枯竭',
 
   'Spawned Monster': '生成怪物',
   'Initializing random encounter' : '正在初始化随机遭遇',
