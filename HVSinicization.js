@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HV - 战斗日志汉化
 // @namespace    Aloxaf_hentai
-// @version      0.1.7
+// @version      0.1.8
 // @description  汉化 HV 战斗日志
 // @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
 // @author       qp_xe & 1235789gzy1
@@ -40,6 +40,14 @@ let words = {
   'Arcane Focus' : '奥术集成',
   'Channeling' : '引导',
   'Fleeing' : '逃跑',
+  'Blessing of the RiddleMaster' : '御谜士的祝福',
+  
+  // 怪物 BUFF 效果
+  'Vital Theft' : '生命吸窃',
+  'Ether Theft' : '以太吸窃',
+  'Spirit Theft' : '灵力吸窃',
+  'Confused' : '混乱',
+  'drain' : '枯竭',
 
   //战斗风格
   'Overwhelming Strikes': '压倒性的攻击',
@@ -95,7 +103,7 @@ let words = {
   'Scan' : '扫描',
 
   'FUS RO DAH' : '龙吼',
-  'Orbital Friendship Cannon' : '友谊小马炮',
+  'Orbital Friendship Cannon' : '<font color="#FF0000">友</font><font color="#CC0033">谊</font><font color="#990066">小</font><font color="#660099">马</font><font color="#3300CC">炮</font>',
   'Concussive Strike' : '震荡打击',
   'Skyward Sword' : '天空之剑',
   'Frenzied Blows' : '狂乱百裂斩',
@@ -159,7 +167,6 @@ let words = {
 
   // 动作
   'casts?': '<span style=\"background:#7CFC00\" >咏唱</span>',
-  'parries your attack': '<span style=\"background:	#00FFFF\" >招架了你的攻击</span>',
   'uses': '<span style=\"background:#ADFF2F\" >使用了</span>',
   'hits': '<span style=\"color:#FF00FF\" >击中</span>',
   'crits': '<span style=\"color:#DC143C\" >暴击</span>',
@@ -177,25 +184,35 @@ let words = {
   'You block the attack': '<span style=\"color:#696969\" >你格挡了这次攻击</span>',
   'You parry the attack': '<span style=\"color:#696969\" >你招架了这次攻击</span>',
   'Your (.*) absorbs (.*) from the attack into': '你的 $1 吸收了 $2 并转化为 ',
-  'You are Victorious!': '你胜利了',
-  'You gain': '你获得了',
-  'You obtained': '你获得了',
-  'The effect (.*) on (.*) has expired': '<span style=\"color:	#9370DB\" >$2 身上的状态 $1 已失效</span>',
   'The effect (.*) has expired': '<span style=\"background:#7B68EE\" >状态 $1 已失效</span>',
   'Cooldown expired for (.*)': '<span style=\"color:#FF8C00\" >$1</span> <span style=\"background:#00FF00\" >已冷却</span>',
-
   'counter (.*) for (.*)': '<span style=\"background:#FFFF00\" >反击</span> $1 <span style=\"background:#FFFF00\" >造成 $2</span>',
   'healing (.*) for (.*) points of health': '治疗 $1 $2 点生命',
+  'You drain (.*) points of health from (.*)' : '你从 $2 身上吸取 $1 点生命值',
   'but is absorbed': '但被吸收了',
-  'Spirit Stance Engaged': '灵动架势开启',
-  'Spirit Stance Exhausted': '灵动架势关闭',
 
+  
+  // 怪物动作
+  'parries your attack': '<span style=\"background:	#00FFFF\" >招架了你的攻击</span>',
+  'The effect (.*) on (.*) has expired': '<span style=\"color:	#9370DB\" >$2 身上的状态 $1 已失效</span>',
+  'resists your spell' : '<span style=\"background:#696969\" >抵抗了你的魔法</span>',
+  'got knocked out of confuse' : '从混乱中脱离',
+  
+  //战斗系统文本
   'Spawned Monster': '生成怪物',
   'Initializing random encounter' : '正在初始化随机遭遇',
   'has been defeated': '已被打败',
   'With the light of a new dawn, [yY]our experience in all things increases' : '随着新黎明的到来，你在所有事情上的经验都会增加',
   'have escaped from the battle': '从战斗中脱离了',
+  'Time Bonus' : '计时奖励',
+  'The Riddlemaster listens to your answer, tries to keep a pensive face, then breaks into a wide grin' : '谜语大师听了你的回答，努力保持沉思的表情，然后咧嘴大笑',
+  'The Riddlemaster listens to your answer and winks at you' : '谜语大师听你的回答，向你眨眼',
   'have been defeated' : '嗝屁了',
+  'Spirit Stance Engaged': '灵动架势开启',
+  'Spirit Stance Exhausted': '灵动架势关闭',
+  'You are Victorious!': '你胜利了',
+  'You gain': '你获得了',
+  'You obtained': '你获得了',
   
   //结算时各项经验的翻译文本
   'one-handed weapon proficiency' : '单手武器的熟练度',
@@ -214,6 +231,7 @@ let words = {
   'supportive magic proficiency' : '增益魔法的熟练度',
 
   'A traveling salesmoogle gives':'自动出售给予了',
+  'have reached Level' : '<span style=\"background:#00FF00\" >升级至</span>',
   'dropped':'掉落',
 
   'for (\\d+)': '<span style=\"background:#FFFF00\" >造成 $1</span>',
@@ -249,6 +267,7 @@ let words = {
         'Crystal of Devotion' : '神圣水晶',
         'Crystal of Corruption' : '暗黑水晶',
         'Crystal of Quintessence' : '灵魂水晶',
+        'Crystal of Corruption' : '腐化水晶',
 
         'Monster Edibles' : '怪物食品',
         'Monster Chow' : '怪物口粮',
