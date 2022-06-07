@@ -560,8 +560,13 @@ function observe_node(node, config, callback) {
 function add_to_log(text) {
   let tr = document.createElement('tr');
   let td = document.createElement('td');
-  td.classList.add('tl');
-  td.innerHTML = trans(text);
+  if (text == '') {
+    td.classList.add('tls');
+  }
+  else {
+    td.classList.add('tl');
+    td.innerHTML = trans(text);
+  }
   tr.appendChild(td);
   let log = document.querySelector('#translog');
   log.insertBefore(tr, log.firstChild);
