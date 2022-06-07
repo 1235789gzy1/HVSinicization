@@ -252,7 +252,9 @@ let words = {
   'health': '生命',
   'magic': '魔力',
   'spirit': '灵力',
-  
+};
+
+let items_words = {
   //以下内容来自HV装备物品汉化
         'Crystal of Vigor' : '力量水晶',
         'Crystal of Finesse' : '灵巧水晶',
@@ -523,12 +525,26 @@ for (const [key, value] of Object.entries(words)) {
   chinese.push(value);
 }
 
+let regexs_items = [], chinese_items = [];
+for (const [key, value] of Object.entries(items_words)) {
+  regexs_items.push(new RegExp(`(?<=[ ,.\\[]|^)${key}(?=[ ,.\\]]|$)`, 'g'));
+  chinese_items.push(value);
+}
+
 unsafeWindow.trans_regexs  = regexs;
 unsafeWindow.trans_chinese = chinese;
 
 function trans(text) {
   let regexs  = unsafeWindow.trans_regexs  || regexs;
   let chinese = unsafeWindow.trans_chinese || chinese;
+  if (text.match(/(\[.+\])/)) {
+    // 如果内容包含掉落物则翻译物品装备，否则不翻译
+    let item = RegExp.$1, itemorg = RegExp.$1;
+    for (const [idx, regex] of Object.entries(regexs_items)) {
+        item = item.replace(regex, chinese_items[idx]);
+    }
+    text = text.replace(itemorg, item);
+  }
   for (const [idx, regex] of Object.entries(regexs)) {
     text = text.replace(regex, chinese[idx]);
   }
