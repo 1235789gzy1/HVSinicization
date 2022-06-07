@@ -47,6 +47,16 @@ let words = {
   'Ether Theft' : '以太吸窃',
   'Spirit Theft' : '灵力吸窃',
   'Confused' : '混乱',
+  'Hastened' : '疾速',
+  'Absorbing Ward' : '吸收结界',
+  'Slowed' : '缓慢',
+  'Weakened' : '虚弱',
+  'Imperiled' : '陷危',
+  'Blinded' : '盲目',
+  'Asleep' : '沉眠',
+  'Silenced' : '沉默',
+  'Magically Snared' : '魔磁网',
+  'Vital Theft' : '生命窃取',
   'drain' : '枯竭',
 
   //战斗风格
@@ -162,7 +172,12 @@ let words = {
   'Stunned' : '眩晕',
   'Bleeding Wound' : '流血',
   'Void Strike': '虚空冲击',
-  'Wind Strike': '狂风冲击',
+  'Fire Strike':'火焰冲击',
+  'Cold Strike':'冰霜冲击',
+  'Elec Strike':'闪电冲击',
+  'Wind Strike':'狂风冲击',
+  'Holy Strike':'神圣冲击',
+  'Dark Strike':'黑暗冲击',
   'spike shield': '刺盾',
 
   // 动作
@@ -170,9 +185,11 @@ let words = {
   'uses': '<span style=\"background:#ADFF2F\" >使用了</span>',
   'hits': '<span style=\"color:#FF00FF\" >击中</span>',
   'crits': '<span style=\"color:#DC143C\" >暴击</span>',
+  'blasts': '<span style=\"color:#DC143C\" >暴击</span>',
   'restores' : '<span style=\"color:#006400\" >恢复</span>',
   'Recovered' : '<span style=\"color:#006400\" >恢复了</span>',
   'You use': '<span style=\"background:#ADFF2F\" >你使用了</span>',
+  'The effect (.+) was dispelled\.' : '效果 $1 已被替换',
   'gains? the effect': '<span style=\"background:#ADFF2F" >获得了状态</span>',
   'You crit': '<span style=\"color:#1E90FF\" >你</span><span style=\"color:#DC143C\" >暴击</span>',
   'You hit': '<span style=\"color:#1E90FF\" >你</span><span style=\"color:#FF00FF\" >击中</span>',
@@ -190,9 +207,12 @@ let words = {
   'healing (.*) for (.*) points of health': '治疗 $1 $2 点生命',
   'You drain (.*) points of health from (.*)' : '你从 $2 身上吸取 $1 点生命值',
   'but is absorbed': '但被吸收了',
+  'resisted\\)': '被抵抗)',
 
   
   // 怪物动作
+  'misses the attack against' : '错失了攻击',
+  'but misses the attack.' : '但错失了攻击',
   'parries your attack': '<span style=\"background:	#00FFFF\" >招架了你的攻击</span>',
   'The effect (.*) on (.*) has expired': '<span style=\"color:	#9370DB\" >$2 身上的状态 $1 已失效</span>',
   'resists your spell' : '<span style=\"background:#696969\" >抵抗了你的魔法</span>',
@@ -239,9 +259,13 @@ let words = {
   '[yY]ou': '<span style=\"color:#1E90FF\" >你</span>',
 
   // 伤害
+  'fire damage': '火属性伤害',
   'cold damage': '冰属性伤害',
   'void damage': '虚空属性伤害',
+  'elec damage': '雷属性伤害',
   'wind damage': '风属性伤害',
+  'dark damage': '暗属性伤害',
+  'holy damage': '圣属性伤害',
   'spirit damage': '灵力伤害',
   'crushing damage': '敲击伤害',
   'slashing damage': '砍击伤害',
@@ -252,7 +276,9 @@ let words = {
   'health': '生命',
   'magic': '魔力',
   'spirit': '灵力',
-  
+};
+
+let items_words = {
   //以下内容来自HV装备物品汉化
         'Crystal of Vigor' : '力量水晶',
         'Crystal of Finesse' : '灵巧水晶',
@@ -523,12 +549,26 @@ for (const [key, value] of Object.entries(words)) {
   chinese.push(value);
 }
 
+let regexs_items = [], chinese_items = [];
+for (const [key, value] of Object.entries(items_words)) {
+  regexs_items.push(new RegExp(`(?<=[ ,.\\[]|^)${key}(?=[ ,.\\]]|$)`, 'g'));
+  chinese_items.push(value);
+}
+
 unsafeWindow.trans_regexs  = regexs;
 unsafeWindow.trans_chinese = chinese;
 
 function trans(text) {
   let regexs  = unsafeWindow.trans_regexs  || regexs;
   let chinese = unsafeWindow.trans_chinese || chinese;
+  if (text.match(/(\[.+\])/)) {
+    // 如果内容包含掉落物则翻译物品装备，否则不翻译
+    let item = RegExp.$1, itemorg = RegExp.$1;
+    for (const [idx, regex] of Object.entries(regexs_items)) {
+        item = item.replace(regex, chinese_items[idx]);
+    }
+    text = text.replace(itemorg, item);
+  }
   for (const [idx, regex] of Object.entries(regexs)) {
     text = text.replace(regex, chinese[idx]);
   }
@@ -544,8 +584,13 @@ function observe_node(node, config, callback) {
 function add_to_log(text) {
   let tr = document.createElement('tr');
   let td = document.createElement('td');
-  td.classList.add('tl');
-  td.innerHTML = trans(text);
+  if (text == '') {
+    td.classList.add('tls');
+  }
+  else {
+    td.classList.add('tl');
+    td.innerHTML = trans(text);
+  }
   tr.appendChild(td);
   let log = document.querySelector('#translog');
   log.insertBefore(tr, log.firstChild);
