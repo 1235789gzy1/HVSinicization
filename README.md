@@ -14,6 +14,6 @@
  - 前往[GreasyFork](https://greasyfork.org/zh-CN/scripts/445520-hv-%E6%88%98%E6%96%97%E6%97%A5%E5%BF%97%E6%B1%89%E5%8C%96)安装 (更新较慢)
 
 ## 鸣谢
-原作者: 𝓺𝓹𝔁𝓮💤 授权初始代码
+原作者: [𝓺𝓹𝔁𝓮💤](https://t.me/qp_xe) 授权初始代码
 <br>大佬: [indefined](https://github.com/indefined) 对脚本问题的修正
 <br>在此我由衷的感谢你们为HVSinicization做出的贡献,以后还请多多指教
