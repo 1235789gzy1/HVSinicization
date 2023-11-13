@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         HV - 战斗日志汉化
 // @namespace    Aloxaf_hentai
-// @version      0.1.10
+// @version      0.2.0
 // @description  汉化 HV 战斗日志
 // @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
-// @author       qp_xe & 1235789gzy1
+// @author       qp_xe & indefined & 1235789gzy1
 // @include      https://hentaiverse.org/*
 // @grant        GM_addStyle
 // @grant        unsafeWindow
@@ -237,9 +237,9 @@ let words = {
   
   //结算时各项经验的翻译文本
   'one-handed weapon proficiency' : '单手武器的熟练度',
-  'two-hannded weapon proficiency' : '双手武器的熟练度',
+  'two-handed weapon proficiency' : '双手武器的熟练度',
   'one-handed proficiency' : '单手的熟练度',
-  'two-hannded proficiency' : '双手的熟练度',
+  'two-handed proficiency' : '双手的熟练度',
   'dual wielding proficiency' : '双持的熟练度',
   'staff proficiency' : '法杖的熟练度',
   'cloth armor proficiency' : '布甲的熟练度',
