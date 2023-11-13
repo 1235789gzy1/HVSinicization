@@ -237,9 +237,9 @@ let words = {
   
   //结算时各项经验的翻译文本
   'one-handed weapon proficiency' : '单手武器的熟练度',
-  'two-hannded weapon proficiency' : '双手武器的熟练度',
+  'two-handed weapon proficiency' : '双手武器的熟练度',
   'one-handed proficiency' : '单手的熟练度',
-  'two-hannded proficiency' : '双手的熟练度',
+  'two-handed proficiency' : '双手的熟练度',
   'dual wielding proficiency' : '双持的熟练度',
   'staff proficiency' : '法杖的熟练度',
   'cloth armor proficiency' : '布甲的熟练度',
