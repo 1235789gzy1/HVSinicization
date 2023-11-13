@@ -539,11 +539,6 @@ let items_words = {
         'Legendary':'<span style=\"background:#ffbbff\" >✪传奇✪</span>',
         'Peerless':'<span style=\"background:#ffd760\" >☯无双☯</span>',
 
-        /////////////////monsterbation适配//////////
-        'damage dealt physical' : '造成的物理伤害',
-        'damage taken physical' : '收到的物理伤害',
-        'crushing' : '压碎',
-
         /////////////////个人补充翻译//////////
 
 }
