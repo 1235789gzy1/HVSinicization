@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HV - 战斗日志汉化
 // @namespace    Aloxaf_hentai
-// @version      0.1.9
+// @version      0.1.10
 // @description  汉化 HV 战斗日志
 // @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
 // @author       qp_xe & 1235789gzy1
@@ -233,6 +233,7 @@ let words = {
   'You are Victorious!': '你胜利了',
   'You gain': '你获得了',
   'You obtained': '你获得了',
+  'fails due to insufficient Spirit' : '由于灵力不足，没有生效',
   
   //结算时各项经验的翻译文本
   'one-handed weapon proficiency' : '单手武器的熟练度',
