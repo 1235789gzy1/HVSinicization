@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         HV - 战斗日志汉化
 // @namespace    Aloxaf_hentai
-// @version      0.1.10
+// @version      0.2.0
 // @description  汉化 HV 战斗日志
 // @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
-// @author       qp_xe & 1235789gzy1
+// @author       qp_xe & indefined & 1235789gzy1
 // @include      https://hentaiverse.org/*
 // @grant        GM_addStyle
 // @grant        unsafeWindow
@@ -538,6 +538,11 @@ let items_words = {
         'Magnificent':'<span style=\"background:#a6daf6\" >☆史诗☆</span>',
         'Legendary':'<span style=\"background:#ffbbff\" >✪传奇✪</span>',
         'Peerless':'<span style=\"background:#ffd760\" >☯无双☯</span>',
+
+        /////////////////monsterbation适配//////////
+        'damage dealt physical' : '造成的物理伤害',
+        'damage taken physical' : '收到的物理伤害',
+        'crushing' : '压碎',
 
         /////////////////个人补充翻译//////////
 
