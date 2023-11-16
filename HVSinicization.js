@@ -5,7 +5,8 @@
 // @description  汉化 HV 战斗日志
 // @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
 // @author       qp_xe & indefined & 1235789gzy1
-// @include      https://hentaiverse.org/*
+// @include        *://hentaiverse.org/*
+// @include        *://alt.hentaiverse.org/*
 // @grant        GM_addStyle
 // @grant        unsafeWindow
 // ==/UserScript==
