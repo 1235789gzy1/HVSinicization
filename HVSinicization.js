@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HV - 战斗日志汉化
 // @namespace    Aloxaf_hentai
-// @version      0.2.0
+// @version      0.3.0
 // @description  汉化 HV 战斗日志
 // @notice       原作者@qp_xe，物品汉化文本由HV物品装备汉化提供
 // @author       qp_xe & indefined & 1235789gzy1
@@ -595,6 +595,13 @@ function add_to_log(text) {
   }
   tr.appendChild(td);
   let log = document.querySelector('#translog');
+
+  // 添加新日志之前检查日志数量
+  if (log.children.length >= 100) {
+    // 如果超过100条，删除最旧的日志
+    log.lastChild.remove();
+  }
+
   log.insertBefore(tr, log.firstChild);
 }
 
